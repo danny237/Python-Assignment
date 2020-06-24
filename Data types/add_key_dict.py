@@ -6,11 +6,14 @@ def add_key(dict1, key):
     return dict1
 
 
+dict1 = {'name': 'Daniel', 'address': 'Lalitpur'}
 # user input
+print('existing dict: ')
+print(dict1)
 print('Enter the key and values seperated by space: ')
 user_input = [e for e in input().strip().split()]
 
-dict1 = dict()
+
 key = dict()
 key[user_input[0]] = user_input[1]
 
